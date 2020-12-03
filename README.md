@@ -1,6 +1,6 @@
 ## Personal Info
 
-Hello World, My name is Youdiowei OyinEteimorde or just **Eteims**, i am an autodidact. I am currently fascinated by the field of Machine Learning.
+Hello World, My name is Youdiowei OyinEteimorde or just **Eteims**, I am an autodidact. I am currently fascinated by the field of Machine Learning.
 
 I am passionate about Mathematics, Physics & Learning new things every day, I love Sci-fi and detective fiction.
 
