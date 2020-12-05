@@ -1,3 +1,5 @@
+![alt text](https://github.com/EteimZ/EteimZ.github.io/blob/master/img/Profile.jpg)
+
 ## Personal Info
 
 Hello World, My name is Youdiowei OyinEteimorde or just **Eteims**, I am an autodidact. I am currently fascinated by the field of Machine Learning.
