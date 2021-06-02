@@ -1,173 +1,605 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Eteims</title>
+<html lang="en-us"><head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script>
-    var i = 0;
-    var txt = 'My name is Youdiowei OyinEteimorde or just Eteims' ;
-    var speed = 75;
-    
-    function typeWriter() {
-      if (i < txt.length) {
-        document.getElementById("demo").innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-      }
-    }
-  </script>
-</head>
+  <title>Eteims | Portfolio Site</title>
 
-<body onload="typeWriter()">
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#Home">Home</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#AboutMe">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Skill">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Contacts">Contact</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description"
+    content="This is meta description">
+  
+  <meta name="author" content="somrat">
+  <meta name="generator" content="Hugo 0.83.1" />
 
-<div class="container text-center mw-100" style="height: 200px; background-image: url('img/Spacey.jpg');">
-  <div class="card card-header" style=" color: white; background-color: rgba(0,0,0,0); border: none; margin-top: auto;" >
-    <h1>Hello World </h1>
-    <h3 id="demo"></h3>  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&amp;display=swap">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/hover/hover.css">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/owl-carousel/owl.carousel.min.css">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/owl-carousel/owl.theme.default.min.css">
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/plugins/text-animation/text-animation.css">
+  
+
+  
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/css/style.min.css" media="screen">
+
+  
+  
+  <link rel="stylesheet" href="https://eteimz.github.io/css/custom.min.css" media="screen">
+
+  
+  <link rel="shortcut icon" href="https://eteimz.github.io/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="https://eteimz.github.io/images/favicon.png" type="image/x-icon">
+
+  
+  
+
+  
+  <meta property="og:title" content="Eteims | Portfolio Site" />
+<meta property="og:description" content="This is meta description" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://eteimz.github.io/" />
+
+
+  
+
+</head><body>
+
+
+
+<style></style>
+<section class="header "  id="home">
+  <div class="slider-prev-button slider-button">
+    <i class="fa fa-angle-left"></i>
   </div>
-</div>
+  <div class="slider-next-button slider-button">
+    <i class="fa fa-angle-right"></i>
+  </div>
+  <div class="owl-carousel owl-full-width owl-theme" id="background-slide">
+    
+    <div class="slider"><img class="img-fluid" src="https://eteimz.github.io/images/slider/slider-1.jpg" alt="slider-background"></div>
+    
+    <div class="slider"><img class="img-fluid" src="https://eteimz.github.io/images/slider/slider-2.jpg" alt="slider-background"></div>
+    
+    <div class="slider"><img class="img-fluid" src="https://eteimz.github.io/images/slider/slider-3.jpg" alt="slider-background"></div>
+    
+  </div>
+  <div class="container">
+    <div class="row content">
+      <div class="col-lg-8 col-lg-offset-2 col-sm-8 col-sm-offset-2 head-container">
+        <div class="head-holder">
+          <h1 class="introduction">I&rsquo;m Eteims</h1>
+          <div class="animated-text">
+            <strong class="cd-headline clip">
+              <span class="cd-words-wrapper">
+                
+                <b  class="is-visible" >Software Developer</b>
+                
+                <b >Data Scientist</b>
+                
+                <b >Machine Learning Practioner</b>
+                
+                <b >Hobbyist</b>
+                
+              </span>
+            </strong>
+          </div>
+          
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="container" style = "margin-top: 30px;">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card card-body h-75" id="profile-wrapper" style="border: none;">
-                <img id="profile-pic" src="img/Profile.jpg" style="height: 300px; width: 300; border-radius: 10%;">
-                <hr>
-                <h4 class="card-title"> 👋🏿 I'm Eteims </h4> 
+  
+  <div class="navigation-icon">
+    <input id="burger" type="checkbox" />
+    <label for="burger" class="burger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <div class="fullscreen-nav-container" style="background-image: url('https://eteimz.github.io/images/backgrounds/full-nav-bg.jpg');">
+    <div class="container-fluid">
+      <div class="full-nav-container row">
+        <div class="full-nav-holder">
+          <div class="full-nav-content">
+            <div class="name">
+              <div class="first-name">Youdiowei</div>
+              <div class="last-name">Eteimorde</div>
             </div>
-          </div>  
-        
-          <div class="col-md-9">
-              <div class="card card-body h-75" id="AboutMe" style="border: none;">
-                    <h4 class="text-info">Get to know me 🤓 </h4>  
-                    <hr>
-                    <p>I am an autodidact. I am passionate about Science (Especially Physics/Mathematics), I love learning new things everyday.</p>
-                    <p>I consider myself a Machine learning Practitioner & Hobbyist, I experiment with different Machine Learning algorithms/models/concepts within Jupyter Notebooks, I write Python Scripts for fun  and ocassionally dable with Microcontrollers.</p> 
-              </div>
+            <div class="fulscreen-nav">
+              <ul class="list-inline fullscreen-nav-holder">
+                
+                <li><a class="text-uppercase"
+                    href="https://eteimz.github.io/">Home</a>
+                </li>
+                
+                <li><a class="text-uppercase"
+                    href="https://eteimz.github.io/#about">About me</a>
+                </li>
+                
+                <li><a class="text-uppercase"
+                    href="https://eteimz.github.io/#service">Lib/Tech</a>
+                </li>
+                
+                <li><a class="text-uppercase"
+                    href="https://eteimz.github.io/#portfolio">Projects</a>
+                </li>
+                
+                <li><a class="text-uppercase"
+                    href="https://eteimz.github.io/#contact">Contact</a>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="full-nav-icon-holder">
+              <ul class="full-nav-icons list-inline">
+                
+                <li><a href="mailto:8teims@gmail.com"><i class="fab fa-google"></i></a></li>
+                
+                <li><a href="https://www.twitter.com/Eteims1"><i class="fab fa-twitter"></i></a></li>
+                
+                <li><a href="https://www.kaggle.com/eteims"><i class="fab fa-kaggle"></i></a></li>
+                
+                <li><a href="https://github.com/EteimZ"><i class="fab fa-github"></i></a></li>
+                
+              </ul>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="menu" id="menu">
+  <nav>
+    
+    <div class="menu-container">
+      <ul class="desktop-menu list-inline mb-0" id="desktop-menu">
         
-        <div class="col-md-9">
-          <h4 class="text-info text-center" id="Skill">Skill Set 🧙🏿 </h4>  
-          <div class="row">
-                  <div class="card" style="width: 1000px; margin-bottom: 10px;">   
-                  <div class = "card-body">
-                  <h5> Programming Languages: </h5>
-                  <div class="progress" style = "margin-bottom: 10px;">
-                    <div class="progress-bar" style="width:75%;"> Python </div>
-                  </div>
-                  <div class="progress" style = "margin-bottom: 10px;">
-                    <div class="progress-bar" style="width:60%;"> JavaScript </div>
-                  </div>
-                  <div class="progress" style = "margin-bottom: 10px;">
-                    <div class="progress-bar" style="width:45%;"> C/C++ </div>
-                  </div>
-                  <div class="progress" style = "margin-bottom: 10px;">
-                    <div class="progress-bar" style="width:30%;"> Java</div>
-                  </div>
-                  </div>
+        <li class="menu-item hvr-underline-from-left 1"><a
+            href="https://eteimz.github.io/">Home</a>
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 1"><a
+            href="https://eteimz.github.io/#about">About me</a>
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 1"><a
+            href="https://eteimz.github.io/#service">Lib/Tech</a>
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 1"><a
+            href="https://eteimz.github.io/#portfolio">Projects</a>
+        </li>
+        
+        <li class="menu-item hvr-underline-from-left 1"><a
+            href="https://eteimz.github.io/#contact">Contact</a>
+        </li>
+        
+      </ul>
+      
+      
+
+      
+      <div class="mobile-menu">
+        <a class="menu-link">
+          <div class="mobile-menu-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+        <div class="mobile-menu-logo"><a href="https://eteimz.github.io/"><img class="img-fluid"
+              src="https://eteimz.github.io/images/logo-dark.png" alt="Eteims | Portfolio Site"></a>
+        </div>
+        <div class="menu-slider">
+          <nav>
+            <ul class="mobile-menu-list">
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
+                  href="https://eteimz.github.io/">Home</a>
+              </li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
+                  href="https://eteimz.github.io/#about">About me</a>
+              </li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
+                  href="https://eteimz.github.io/#service">Lib/Tech</a>
+              </li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
+                  href="https://eteimz.github.io/#portfolio">Projects</a>
+              </li>
+              
+              <li class="hvr-shutter-out-vertical mobile-menu-item 1"><a
+                  href="https://eteimz.github.io/#contact">Contact</a>
+              </li>
+              
+            </ul>
             
-            <div class="card-body">
-            <h5> Libraries/Frameworks: </h5>
-            <ul style="display:inline; float: left;">
-              <li>TensorFlow/Keras</li>
-              <li>Scikit-learn</li>
-              <li>Matplotlib</li>
-              <li>Pandas</li>
+            <ul class="mobile-menu-icons list-inline">
+              
+              <li><a href="mailto:8teims@gmail.com"><i class="fab fa-google"></i></a></li>
+              
+              <li><a href="https://www.twitter.com/Eteims1"><i class="fab fa-twitter"></i></a></li>
+              
+              <li><a href="https://www.kaggle.com/eteims"><i class="fab fa-kaggle"></i></a></li>
+              
+              <li><a href="https://github.com/EteimZ"><i class="fab fa-github"></i></a></li>
+              
             </ul>
-            <ul style="display:inline; float: left;">
-              <li>Django</li>
-              <li>Numpy</li>
-              <li>OpenCV</li>
-              <li>BeautifulSoup</li>
-            </ul>
-            </div>
-            <div class="card-body">
-              <h5> Technologies: </h5>
-              <ul style="display:inline; float: left;">
-                <li> Git/GitHub </li>
-                <li>JupyterLab/Notebook</li>
-                <li>Linux</li>
-                <li>VIM</li>
-              </ul>
-              <ul style="display:inline; float: left;">
-                <li>GCP</li>
-                <li>Arduino</li>
-              </ul>
-            </div>
-          </div>
-          </div>
-          <h4 class="text-info text-center" id="Projects"> Projects 🚀</h4>
-        <div class="row" style="margin-top: 10px;">
-          <div class="card" style="width: 400px; height: 200px; margin-right: 30px; margin-bottom: 30px;">   
-              <div class="card-body">
-                <h4 class="card-title">Spam Detector</h4>
-                <p class="card-text">A simple Spam detector that uses naive bayes for classification. Built with Streamlit and hosted on Heroku.</p>
-                <a href="https://streamlit-spam.herokuapp.com/" class="btn btn-primary stretched-link">See Project</a>
-              </div>
-          </div>
-          <div class="card" style="width: 400px; height: 200px;">              
-              <div class="card-body">
-                <h4 class="card-title">Deep Learning Notebooks</h4>
-                <p class="card-text">A series of notebooks demonstrating deep learning concepts written in pytorch & Tensorflow.</p>
-                <a href="https://github.com/EteimZ/Deep_Learning-Notebooks" class="btn btn-primary stretched-link">See Project</a>
-              </div>
-          </div>
-          <div class="card" style="width: 400px;height: 200px;margin-right: 30px; margin-bottom: 30px;">              
-            <div class="card-body">
-              <h4 class="card-title"> Mnist API </h4>
-              <p class="card-text">A prototype Rest Api that predicts digits.</p>
-              <a href="https://github.com/EteimZ/keras-flask_deploy" class="btn btn-primary stretched-link">See Project</a>
-            </div>
-          </div>
-          <div class="card" style="width: 400px; height: 200px;">              
-            <div class="card-body">
-              <h4 class="card-title"> Controlling VlC with Python & Arduino </h4>
-              <p class="card-text">I built an interface that controls VLC with arduino & python.</p>
-              <a href="https://hackaday.io/project/162532-controlling-vlc-with-arduino" class="btn btn-primary stretched-link">See Project</a>
-            </div>
-          </div>
+          </nav>
         </div>
+      </div>
+    </div>
+  </nav>
+</section>
 
 
-        </div>
+
+
+<style></style>
+<section class="about-me "  id="about">
+  <div class="container">
+    <div class="row about-me-holder">
+      <div class="col-lg-6 col-md-6 col-sm-6 about-me-text d-flex align-self-center">
+        <div class="text-holder wow fadeInUp" data-wow-duration="1.5s">
+          <h1>Get to Know Me 🤓</h1>
+          <div class="content"><p>I am an autodidact. I am passionate about Science (Especially Physics/Mathematics), I love learning new things everyday.</p>
+<p>I consider myself a Machine learning Practitioner &amp; Hobbyist, I experiment with different Machine Learning algorithms/models/concepts within Jupyter Notebooks, I write Python Scripts for fun and ocassionally dable with Microcontrollers.</p>
 </div>
+          
+          
+          <a href="https://eteimz.github.io/" class="download-cv hvr-icon-hang"> DOWNLOAD MY CV &nbsp; &nbsp; &nbsp;</a>
+          
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-6 col-sm-6 col-9 about-me-images wow fadeInUp" data-wow-duration="1.5s">
+        <img class="img-fluid" src="https://eteimz.github.io/images/backgrounds/portrait.jpg" alt="about-me">
+      </div>
+      
+    </div>
 
-<footer style="  text-align: center;padding: 3px; background-color: silver;color: white;" id="Contacts">
-  <h3> Contact Me ☎️</h3>
-  <p><a href="mailto:8teims@gmail.com">8teims@gmail.com</a><br>
-  <a href="https://github.com/EteimZ"><img src="img/github.png" style="width:20px;height: 20px;"> GitHub</a>
-  <br><a href="https://www.kaggle.com/eteims"><img src="img/kaggle.webp" style="width:20px;height: 20px;"> Kaggle</a>
-  <br><a href="https://www.twitter.com/Eteims1"><img src="img/twitter.png" style="width:30px;height: 30px;"> twitter</a>
-  </p>
-</footer>
+    <div class="row experience-skill">
+      
+      
+      <div class="col-lg-6 col-sm-6 col-11 experience wow fadeInUp" data-wow-duration="1.5s">
+        <h3>EXPERIENCE</h3>
+        <ul class="experience-chart">
+          
+          <li>
+            <div class="single-experience">
+              <h4>Programming Tutor</h4>
+               <span>Private</span> 
+               <span>2017-2020</span> 
+               <p>I served as a programming tutor teaching various Languages like Python, HTML, CSS and JavaScript.</p> 
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+      
 
+      
+      
+      <div class="col-lg-6 col-sm-6 col-11 skill wow fadeInUp" data-wow-duration="1.5s">
+        <h3>Programming Skill</h3>
+        <div class="skill-progress-bar">
+          
+          <div class="clearfix">
+            <span class="skillbar-title">Python</span>
+            <span class="skill-bar-percent">90%</span>
+            <div class="skillbar" data-percent="90%">
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+          
+          <div class="clearfix">
+            <span class="skillbar-title">JavaScript</span>
+            <span class="skill-bar-percent">75%</span>
+            <div class="skillbar" data-percent="75%">
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+          
+          <div class="clearfix">
+            <span class="skillbar-title">C/C&#43;&#43;</span>
+            <span class="skill-bar-percent">50%</span>
+            <div class="skillbar" data-percent="50%">
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+          
+          <div class="clearfix">
+            <span class="skillbar-title">Java</span>
+            <span class="skill-bar-percent">35%</span>
+            <div class="skillbar" data-percent="35%">
+              <div class="skillbar-bar"></div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<style></style>
+<section class="services "  id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto col-sm-10">
+        <div class="wow fadeInUp" data-wow-duration="1.5s">
+          <div class="services-heading">
+            <div class="bar"></div>
+            <h1>Libraries/Technologies</h1>
+          </div>
+          <div class="row">
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/TF.png" alt="Tensorflow">
+              </div>
+              <div class="service-label">Tensorflow</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Django.png" alt="Django">
+              </div>
+              <div class="service-label">Django</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Git.png" alt="Git">
+              </div>
+              <div class="service-label">Git</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Pandas.png" alt="Pandas">
+              </div>
+              <div class="service-label">Pandas</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/AWS.jpg" alt="AWS">
+              </div>
+              <div class="service-label">AWS</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/React.png" alt="React Js">
+              </div>
+              <div class="service-label">React Js</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Scikit.png" alt="Scikit-Learn">
+              </div>
+              <div class="service-label">Scikit-Learn</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/nodejs.png" alt="Node Js">
+              </div>
+              <div class="service-label">Node Js</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Linux.png" alt="Linux">
+              </div>
+              <div class="service-label">Linux</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/numpy.svg" alt="Numpy">
+              </div>
+              <div class="service-label">Numpy</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/Plotlib.svg" alt="Matplotlib">
+              </div>
+              <div class="service-label">Matplotlib</div>
+            </div>
+            
+            <div class="col-lg-4 col-sm-4 col-12 services-icon">
+              <div class="service-img">
+                <img class="img-fluid" src="https://eteimz.github.io/images/icons/arduino.png" alt="Arduino">
+              </div>
+              <div class="service-label">Arduino</div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<style></style>
+<section class="portfolio "  id="portfolio">
+  <div class="container-fluid text-center">
+    <div class="row portfolio-holder text-left">
+      <div class="col-12 text-center">
+        <h1 class="wow fadeInUp" data-wow-duration="1.5s">Projects</h1>
+        <div class="filtering wow fadeInUp" data-wow-duration="1.5s">
+          <div class="btn-group btn-group-toggle portfolio-navigation" data-toggle="buttons">
+            <label class="btn btn-sm btn-primary active hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
+            </label>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="web-development" />Web development
+            </label>
+            
+            <label class="btn btn-sm btn-primary hvr-sweep-to-right">
+              <input type="radio" name="shuffle-filter" value="machine-learning" />Machine learning
+            </label>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-10 col-md-10 col-sm-10 col-10 mx-auto">
+        <div class="row filtr-wrapper wow fadeInUp list" data-wow-duration="1.5s">
+          
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
+            data-groups="[&quot;web-development&quot;]">
+            <div class="item-holder">
+              <a class="image-pop" href="https://eteimz.github.io/images/portfolio/item2.png" title="Django todoapp with Auth">
+                 <img src="https://eteimz.github.io/images/portfolio/item2.png" alt="Django todoapp with Auth">
+              </a>
+              <div class="item-caption">
+                <h2 class="mt-2"><a class="text-white" href="https://eteimz.github.io/portfolio/project-2/">Django todoapp with Auth</a></h2>
+                
+                <p class="mb-0 text-light">Web Development</p>
+                
+                <div class="item-created text-light">12 May, 20</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
+            data-groups="[&quot;machine-learning&quot;]">
+            <div class="item-holder">
+              <a class="image-pop" href="https://eteimz.github.io/images/portfolio/item1.png" title="Spam Detector">
+                 <img src="https://eteimz.github.io/images/portfolio/item1.png" alt="Spam Detector">
+              </a>
+              <div class="item-caption">
+                <h2 class="mt-2"><a class="text-white" href="https://eteimz.github.io/portfolio/project-1/">Spam Detector</a></h2>
+                
+                <p class="mb-0 text-light">Machine Learning</p>
+                
+                <div class="item-created text-light">12 May, 20</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<style></style>
+<section class="contact "  style="background-image: url('https://eteimz.github.io/images/backgrounds/contact-us-bg.jpg');" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="footer col-lg-10 offset-lg-1">
+        <hr>
+        <ul class="footer-icons list-inline">
+          
+          <li><a href="mailto:8teims@gmail.com"><i class="fab fa-google"></i></a></li>
+          
+          <li><a href="https://www.twitter.com/Eteims1"><i class="fab fa-twitter"></i></a></li>
+          
+          <li><a href="https://www.kaggle.com/eteims"><i class="fab fa-kaggle"></i></a></li>
+          
+          <li><a href="https://github.com/EteimZ"><i class="fab fa-github"></i></a></li>
+          
+        </ul>
+        <div class="to-top">
+          <a href="#home"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="credit content">
+          Copyright © 2020 a hugo theme by <a href="https://somrat.netlify.com">somrat</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<a href="#home" class="scroll-up hvr-icon-up"></a>
+
+
+	<!-- JS Plugins -->
+
+<script src="https://eteimz.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/wow.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/text-animation/text-animation.js"></script>
+
+<script src="https://eteimz.github.io/plugins/jquery.waypoints.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="https://eteimz.github.io/plugins/owl-carousel/owl.carousel.min.js"></script>
+
+
+<!-- Main Script -->
+
+<script src="https://eteimz.github.io/js/script.min.js"></script>
+
+<!-- google analitycs -->
 </body>
+
 </html>
