@@ -9,14 +9,14 @@ button:
 
 ########################### Experience ##############################
 experience:
-  enable : true
+  enable : false
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Programming Tutor"
+    - name : "Freelancer"
       company : "Private"
-      duration : "2017-2020"
-      content : "I served as a programming tutor teaching various Languages like Python, HTML, CSS and JavaScript."
+      duration : "2020-"
+      content : "I'm currently a freelance developer taking  served as a programming tutor teaching various Languages like Python, HTML, CSS and JavaScript."
 
 ############################### Skill #################################
 skill:
@@ -30,14 +30,16 @@ skill:
     # skill item loop
     - name : "JavaScript"
       percentage : "75%"
-      
-    # skill item loop
-    - name : "C/C++"
-      percentage : "50%"
-      
+
     # skill item loop
     - name : "Java"
-      percentage : "35%"
+      percentage : "50%"
+
+    # skill item loop
+    - name : "C/C++"
+      percentage : "40%"
+      
+
 
 
 # custom style
@@ -46,6 +48,8 @@ custom_attributes: ""
 custom_css: ""
 ---
 
-I am an autodidact. I am passionate about Science (Especially Physics/Mathematics), I love learning new things everyday.
+I am an autodidact who is passionate about Science and Technology.
 
-I consider myself a Machine learning Practitioner & Hobbyist, I experiment with different Machine Learning algorithms/models/concepts within Jupyter Notebooks, I write Python Scripts for fun and ocassionally dable with Microcontrollers.
+Currently fascinated by Machine learning & its applications, I'm curious by nature and interested in knowing how things work.
+
+I love working on pet projects, building web apps with JavaScript, scripting with Python, and Reading/writing jupyter notebooks. I occasionally dabble with microcontrollers.
