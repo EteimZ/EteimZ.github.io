@@ -5,7 +5,7 @@ image : "images/backgrounds/portrait.jpg"
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "#"
+  link : "Eteims_Resume.pdf"
 
 ########################### Experience ##############################
 experience:
