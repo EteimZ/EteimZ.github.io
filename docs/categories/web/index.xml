@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Eteims | Portfolio Website</title>
-    <link>https://eteimz.github.io/portfolio/</link>
-    <description>Recent content in Projects on Eteims | Portfolio Website</description>
+    <title>Web on Eteims | Portfolio Website</title>
+    <link>https://eteimz.github.io/categories/web/</link>
+    <description>Recent content in Web on Eteims | Portfolio Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Thu, 28 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://eteimz.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Deep Q Learning snake</title>
-      <link>https://eteimz.github.io/portfolio/qsnake/</link>
-      <pubDate>Thu, 28 Oct 2021 12:14:34 +0600</pubDate>
-      
-      <guid>https://eteimz.github.io/portfolio/qsnake/</guid>
-      <description>Deep Q learning algorithmn that plays the game of snake.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 25 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://eteimz.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Socket.io TicTacToe</title>
       <link>https://eteimz.github.io/portfolio/socketiotictactoe/</link>
@@ -27,30 +18,12 @@
     </item>
     
     <item>
-      <title>Deep Learning Notebooks</title>
-      <link>https://eteimz.github.io/portfolio/dlnotebooks/</link>
-      <pubDate>Wed, 02 Dec 2020 12:14:34 +0600</pubDate>
-      
-      <guid>https://eteimz.github.io/portfolio/dlnotebooks/</guid>
-      <description>Deep Learning is a subfield of machine learning which tries to mimic the human neural network in the form of artificial neural network.</description>
-    </item>
-    
-    <item>
       <title>Django todoapp with Auth</title>
       <link>https://eteimz.github.io/portfolio/todoauth/</link>
       <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
       
       <guid>https://eteimz.github.io/portfolio/todoauth/</guid>
       <description>A To-do list app with User Authentication built with django.</description>
-    </item>
-    
-    <item>
-      <title>Spam Detector</title>
-      <link>https://eteimz.github.io/portfolio/spamdetector/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
-      
-      <guid>https://eteimz.github.io/portfolio/spamdetector/</guid>
-      <description>Streamlit Spam Detector A simple Web app built with Streamlit that can detect if a message is Spam or Not Spam.</description>
     </item>
     
     <item>

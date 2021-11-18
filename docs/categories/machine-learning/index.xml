@@ -7,14 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)</copyright>
-    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://eteimz.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Oct 2021 12:14:34 +0600</lastBuildDate><atom:link href="https://eteimz.github.io/categories/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Q Learning snake</title>
+      <link>https://eteimz.github.io/portfolio/qsnake/</link>
+      <pubDate>Thu, 28 Oct 2021 12:14:34 +0600</pubDate>
+      
+      <guid>https://eteimz.github.io/portfolio/qsnake/</guid>
+      <description>Deep Q learning algorithmn that plays the game of snake.</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning Notebooks</title>
+      <link>https://eteimz.github.io/portfolio/dlnotebooks/</link>
+      <pubDate>Wed, 02 Dec 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://eteimz.github.io/portfolio/dlnotebooks/</guid>
+      <description>Deep Learning is a subfield of machine learning which tries to mimic the human neural network in the form of artificial neural network.</description>
+    </item>
+    
     <item>
       <title>Spam Detector</title>
-      <link>https://eteimz.github.io/portfolio/project-1/</link>
+      <link>https://eteimz.github.io/portfolio/spamdetector/</link>
       <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
       
-      <guid>https://eteimz.github.io/portfolio/project-1/</guid>
-      <description>A simple Spam detector that uses naive bayes for classification. Built with Streamlit and hosted on Heroku.</description>
+      <guid>https://eteimz.github.io/portfolio/spamdetector/</guid>
+      <description>Streamlit Spam Detector A simple Web app built with Streamlit that can detect if a message is Spam or Not Spam.</description>
+    </item>
+    
+    <item>
+      <title>OCR sudoku solver</title>
+      <link>https://eteimz.github.io/portfolio/ocr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eteimz.github.io/portfolio/ocr/</guid>
+      <description>A Sudoku solver web app built with flask and tensorflow.</description>
+    </item>
+    
+    <item>
+      <title>RESTAPI digit predictor</title>
+      <link>https://eteimz.github.io/portfolio/digitrestapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://eteimz.github.io/portfolio/digitrestapi/</guid>
+      <description>REST API to recognise hand written digits built with keras &amp;amp; flask hosted on heroku.</description>
     </item>
     
   </channel>
