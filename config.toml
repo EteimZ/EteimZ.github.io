@@ -93,6 +93,11 @@ icon = "fab fa-github"
 link = "https://github.com/EteimZ"
 
 
+[[params.social]]
+icon = "fab fa-linkedin-in"
+link = "https://www.linkedin.com/in/eteimorde-youdiowei/"
+
+
 
 ################################### English language #####################################
 [Languages.en]
